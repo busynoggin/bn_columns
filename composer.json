@@ -1,0 +1,12 @@
+{
+  "name": "busy-noggin/bn-columns",
+  "type": "typo3-cms-extension",
+  "description": "Column content elements for TYPO3",
+  "homepage": "http://www.busynoggin.com",
+  "license": ["GPL-2.0+"],
+  "keywords": ["TYPO3 CMS"],
+  "support": {
+    "issues": "http://www.busynoggin.com"
+  },
+  "version": "1.0.0"
+}
