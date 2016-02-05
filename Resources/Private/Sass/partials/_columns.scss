@@ -1,0 +1,126 @@
+/* Columns =================================================== */
+
+.column-group, .module-group {
+	@include clearfix();
+	clear: both;
+	.column, .module {
+		@include transition(all .5s ease-in-out);
+		width: 100%;
+		float: left;
+		img {
+			width: 100%;
+		}
+	}
+	@include respond-min($bp-med) {
+		.column, .module {
+			width: (100% - $gutter-small)/2;
+			&.column-1, &.module-1 {
+				margin-right: $gutter-small;
+			}
+		}
+		.module.full {
+			width: 100%;
+		}
+		&.three-column-group .column-3, &.three-module-group .module-3 {
+			width: 100%;			
+		}
+	}
+	@include respond-min($bp-large) {
+		$half		: (100% - $gutter-large)/2;
+		$third		: (100% - ($gutter-large * 2))/3;
+		$quarter	: (100% - ($gutter-large * 3))/4;
+		.column, .module {
+			&.half {
+				width: $half;
+			}
+			&.third {
+				width: $third;
+			}
+			&.quarter {
+				width: $quarter;
+			}
+			&.three-quarter {
+				width: (3*$quarter);
+			}
+			&.two-third {
+				width: (2*$third);
+			}			
+		}
+		&.two-column-group, &.dual-module-group {
+			.column-1, .module-1 {
+				margin-right: $gutter-large;
+			}
+		}
+		&.three-column-group, &.three-module-group {
+			.column-1, .column-2, .module-1, .module-2 {
+				margin-right: $gutter-large;
+			}
+		}
+		&.four-column-group, &.four-module-group {
+			.column-1, .column-2, .column-3, .module-1, .module-2, .module-3 {
+				margin-right: $gutter-large;
+				width: $quarter;
+			}
+			.column-4 {
+				width: $quarter;
+			}
+		}
+	}
+	@include respond-min($bp-xl) {
+		$half		: (100% - $gutter-xl)/2;
+		$third		: (100% - ($gutter-xl * 2))/3;
+		$quarter	: (100% - ($gutter-xl * 3))/4;
+		.column, .module {
+			&.half {
+				width: $half;
+			}
+			&.third {
+				width: $third;
+			}
+			&.quarter {
+				width: $quarter;
+			}
+			&.three-quarter {
+				width: (3*$quarter);
+			}
+			&.two-third {
+				width: (2*$third);
+			}
+		}
+		&.two-column-group, &.dual-module-group {
+			.column-1, .module-1 {
+				margin-right: $gutter-xl;
+			}
+		}
+		&.three-column-group, &.three-module-group {
+			.column-1, .column-2, .module-1, .module-2 {
+				margin-right: $gutter-xl;
+			}
+		}
+		&.four-column-group, &.four-module-group {
+			.column-1, .column-2, .column-3, .module-1, .module-2, .module-3 {
+				margin-right: $gutter-xl;
+				width: $quarter;
+			}
+			.column-4 {
+				width: $quarter;
+			}
+		}
+	}
+}
+
+.module-group {
+	@include clearfix();
+	.inner-wrap {
+		@include dark-background;
+		padding: {
+			top: 1em;
+			bottom: 1em;
+			left: $gutter-small;
+			right: $gutter-small;
+		}
+		&.bleed {
+			padding: 0;
+		}
+	}
+}

@@ -1,0 +1,5 @@
+plugin.tx_bncolumns.view {
+	templateRootPaths.default = EXT:bn_columns/Resources/Private/Templates/
+	partialRootPaths.default = EXT:bn_columns/Resources/Private/Partials/
+	layoutRootPaths.default = EXT:bn_columns/Resources/Private/Layouts/
+}

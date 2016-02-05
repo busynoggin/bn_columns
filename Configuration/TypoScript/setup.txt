@@ -1,0 +1,16 @@
+plugin.tx_bncolumns.view {
+	templateRootPaths.0 = {$plugin.tx_bncolumns.view.templateRootPaths.default}
+	partialRootPaths.0 = {$plugin.tx_bncolumns.view.partialRootPaths.default}
+	layoutRootPaths.0 = {$plugin.tx_bncolumns.view.layoutRootPaths.default}
+}
+
+# Temporary hardcoded connection to skin
+# plugin.tx_vhs.settings.asset {
+# 	columnCss {
+# 		path = EXT:bn_columns/Resources/Public/StyleSheets/style.css
+# 		group = css
+# 		standalone = 0
+# 		rewrite = 0
+# 		type = css
+# 	}
+# }

@@ -1,0 +1,74 @@
+/* Variables =================================================== */
+
+// greyscale
+
+$black 			: #000;
+$darkergrey 	: lighten($black, 15%);
+$darkgrey 		: lighten($black, 25%);
+$grey 			: lighten($black, 50%);
+$lightgrey 		: lighten($black, 75%);
+$lightergrey 	: lighten($black, 90%);
+$white 			: rgb(255,255,255);
+
+// 1. ROOT 					==============================
+
+// 2. TYPOGRAPHY 			==============================
+
+$basefont : "Helvetica Neue",sans-serif;
+$basefontsize : 18;
+$basefontweight: 300;
+$boldfontweight: 700;
+$baselineheight : 1.4;
+$baseheadingfont : "Helvetica Neue",sans-serif;
+$baseheadingfontstyle : normal;
+$baseheadingfontweight : bold;
+$baseheadingfontcolor : $black;
+
+$altfont : $basefont;
+$altlineheight : 1.35em;
+$altfontweight : 300;
+
+$codefont : Monaco, Courier New, monospace;
+
+$modularscale : 1.5;
+$altmodularscale : 1.3;
+
+// 3. COLOUR 				==============================
+
+$basecolor 		: $white;
+$compcolor 		: orange;
+$bordercolor    : lighten($basecolor, 60%);
+
+$bodycolor		: $white;
+$textcolor		: $black;
+// $altbackgroundcolor	: background-alpha($basecolor, .3);
+
+// Links
+
+$linkcolor 		    : $textcolor;
+$linkcolorhover 	: $compcolor;
+$linkcolorvisited   : $textcolor;
+$linkcolorfocus 	: $textcolor;
+
+// 6. LAYOUT 				==============================
+
+// $baseline		: $baselineheight;
+// $gutterpx		: 20;
+
+$bp-small	: 30em; // 480px
+$bp-med		: 37.5em; // 600px
+$bp-med-2	: 45.125em;
+$bp-large	: 48em; // 768px
+$bp-xl		: 62em;
+$bp-xl-2	: 71.250em;
+$bp-xxl		: 86.375em;
+
+$gutter-small	: 3.125%;
+$gutter-large	: 2.6042%;
+$gutter-xl		: 3.030303%;
+
+// $threecolumnwidth-med	: 48.6979%;
+$threecolumnwidth-large	: 48.6979%;
+$threecolumnwidth-xl	: 31.986532%;
+
+$xxl-width : 86.375em;

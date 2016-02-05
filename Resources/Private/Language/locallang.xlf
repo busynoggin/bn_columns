@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" product-name="bn_columns" date="2015-04-07T02:24:20+02:00">
+		<header/>
+		<body>
+			<trans-unit id="flux.twocolumngroup">
+				<source>Two Column Group</source>
+			</trans-unit>
+			<trans-unit id="flux.twocolumngroup.description">
+				<source>Two-column groups with different proportions as options</source>
+			</trans-unit>
+			<trans-unit id="flux.twocolumngroup.fields.layout">
+				<source>Layout</source>
+			</trans-unit>
+			<trans-unit id="flux.twocolumngroup.columns.columnOne">
+				<source>Column #1</source>
+			</trans-unit>
+			<trans-unit id="flux.twocolumngroup.columns.columnTwo">
+				<source>Column #2</source>
+			</trans-unit>
+
+			<trans-unit id="flux.threecolumngroup">
+				<source>Three Column Group</source>
+			</trans-unit>
+			<trans-unit id="flux.threecolumngroup.description">
+				<source>Three-column groups with different proportions as options</source>
+			</trans-unit>
+			<trans-unit id="flux.threecolumngroup.fields.layout">
+				<source>Layout</source>
+			</trans-unit>
+			<trans-unit id="flux.threecolumngroup.columns.columnOne">
+				<source>Column #1</source>
+			</trans-unit>
+			<trans-unit id="flux.threecolumngroup.columns.columnTwo">
+				<source>Column #2</source>
+			</trans-unit>
+			<trans-unit id="flux.threecolumngroup.columns.columnThree">
+				<source>Column #3</source>
+			</trans-unit>
+
+			<trans-unit id="flux.fourcolumngroup">
+				<source>Four Column Group</source>
+			</trans-unit>
+			<trans-unit id="flux.fourcolumngroup.description">
+				<source>Four-column groups</source>
+			</trans-unit>
+			<trans-unit id="flux.fourcolumngroup.columns.columnOne">
+				<source>Column #1</source>
+			</trans-unit>
+			<trans-unit id="flux.fourcolumngroup.columns.columnTwo">
+				<source>Column #2</source>
+			</trans-unit>
+			<trans-unit id="flux.fourcolumngroup.columns.columnThree">
+				<source>Column #3</source>
+			</trans-unit>
+			<trans-unit id="flux.fourcolumngroup.columns.columnFour">
+				<source>Column #4</source>
+			</trans-unit>
+
+			<trans-unit id="flux.columnOneContent">
+				<source>Column #1 Content</source>
+			</trans-unit>
+			<trans-unit id="flux.columnTwoContent">
+				<source>Column #2 Content</source>
+			</trans-unit>
+			<trans-unit id="flux.columnThreeContent">
+				<source>Column #3 Content</source>
+			</trans-unit>
+			<trans-unit id="flux.columnFourContent">
+				<source>Column #4 Content</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

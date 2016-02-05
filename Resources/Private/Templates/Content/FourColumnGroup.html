@@ -1,0 +1,38 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+	xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+	xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+
+	<f:layout name="{v:extension.loaded(extensionName: 'fluidcontent_core', then: 'ContentCore', else: 'Content')}" />
+
+	<f:section name="Configuration">
+		<flux:form id="fourcolumngroup" options="{group: 'Columns'}">
+			<flux:grid>
+				<flux:grid.row>
+					<flux:grid.column name="columnOne" style="width: 23%; margin-right: .5em;" />
+					<flux:grid.column name="columnTwo" style="width: 23%; margin-right: .5em;" />
+					<flux:grid.column name="columnThree" style="width: 23%; margin-right: .5em;" />
+					<flux:grid.column name="columnFour" style="width: 23%; margin-right: .5em;" />
+				</flux:grid.row>
+			</flux:grid>
+			<f:render section="Form" partial="Backend/Form" arguments="{_all}"/>
+		</flux:form>
+	</f:section>
+
+	<f:section name="Main">
+		<div id="{record.uid}" class="column-group three-column-group ce-margin-top-{record.space_before} ce-margin-bottom-{record.space_after} {divClass}">
+			<div class="column column-1 quarter">
+				<flux:content.render area="columnOne" />
+			</div>
+			<div class="column column-2 quarter">
+				<flux:content.render area="columnTwo" />
+			</div>
+			<div class="column column-3 quarter">
+				<flux:content.render area="columnThree" />
+			</div>
+			<div class="column column-4 quarter">
+				<flux:content.render area="columnFour" />
+			</div>
+		</div>
+	</f:section>
+</div>
