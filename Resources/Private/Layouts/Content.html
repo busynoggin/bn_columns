@@ -1,9 +1,6 @@
 <f:layout name="Content" />
 
-<div id="{record.uid}" class="column-group">
-	<div class="small-24 columns">
-		<f:cObject data="{record}" typoscriptObjectPath="lib.stdheader" />
-	</div>
+<div id="c{record.uid}">
+	<f:cObject data="{record}" typoscriptObjectPath="lib.stdheader" />
+	<f:render section="Main" />
 </div>
-
-<f:render section="Main" />

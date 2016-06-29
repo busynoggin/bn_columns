@@ -23,7 +23,7 @@
 	</f:section>
 
 	<f:section name="Main">
-		<div id="{record.uid}" class="column-group three-column-group ce-margin-top-{record.space_before} ce-margin-bottom-{record.space_after} {divClass}">
+		<div class="column-group three-column-group ce-margin-top-{record.space_before} ce-margin-bottom-{record.space_after} {divClass}">
 			<div class="column column-1 {f:if(condition: '{layout} == 0', then: 'third')}{f:if(condition: '{layout} == 1', then: 'quarter')}{f:if(condition: '{layout} == 2', then: 'quarter')}{f:if(condition: '{layout} == 3', then: 'half')}">
 				<flux:content.render area="columnOne" />
 			</div>
